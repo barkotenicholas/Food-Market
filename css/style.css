@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Header*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo figcaption {
+    color: rgba(157, 166, 83, 1);
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-btn button {
+    background-color: rgba(194, 148, 11, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    width: 194px;
+    height: 59px;
+    font-size: 16px;
+}
+
+/* About main sectio */
+.about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-main h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.about-main p {
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+}
+
+/* About details*/
+.about-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.location,
+.number,
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location>i {
+    height: 105px;
+    width: 105px;
+    background-color: rgba(194, 148, 11, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 100%;
+    color: white;
+}
+
+.number>i {
+    height: 105px;
+    width: 105px;
+    background-color: rgba(194, 148, 11, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 100%;
+    color: white;
+}
+
+.email>i {
+    height: 105px;
+    width: 105px;
+    background-color: rgba(194, 148, 11, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 100%;
+    color: white;
+}
+
+.about-details p {
+    font-weight: 400px;
+    width: 349px;
+}
+
+.mapcontact {
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Contact information*/
+form {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgba(194, 148, 11, 1);
+    ;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+/* Footer details */
+.footer-head {
+    background: rgba(59, 91, 62, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footcontent,
+.footdetails {
+    width: 350px;
+    height: 300px;
+}
+
+.footdetails i {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footdetails span {
+    color: black;
+}
+
+.footdetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-tail {
+    background: rgba(71, 118, 75, 1);
+    display: flex;
+    justify-content: center;
+}
+
+/* Landing page*/
+.landing-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.landing-main h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}   
+/* Farm products section*/
+.farm-products{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+.farm-products h1{
+    color: rgba(59, 91, 62, 1);
+}
+.produce-title{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.produce-title a{
+    color: #418547;
+    font-weight: bold;
+}
+.produce-title a:hover{
+    text-decoration: underline 5px solid rgba(194, 148, 11, 1);
+}
+.produce-groups{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.produce-box{
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+.nav-shop{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-shop button {
+    background-color: rgba(194, 148, 11, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.responsive{
+    width: 100%;
+}
+
+/* Gallery section css*/
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery h1{
+    align-items: center;
+}
+.gallery-items{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.gallery img{
+    width: 250px;
+    margin: 30px;
+    
+}
