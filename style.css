@@ -7,7 +7,7 @@ header{
     padding-right: 80px;
     
 }
-heaader ::after{
+header ::after{
     content: '';
     display: table;
     clear: both;
