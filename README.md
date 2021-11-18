@@ -20,7 +20,7 @@ This is version 1.0.0 of Food Market
  cd Food-Market
  code .
   ```
-* Open index.html with a browser of your choice
+* Open index.html with a browser of your choice(chrome)
  
 # Tech Stack
 - HTML
