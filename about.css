@@ -280,12 +280,12 @@ header ::after{
     margin-right:20px;
 }
 
-#products{
+#products-footer{
  padding-top:20px;
  color:white;
 }
 
-#products .product{
+#products-footer .product-footer{
     display:flex;
     height:50px;
     margin-top:30px;
@@ -293,11 +293,11 @@ header ::after{
 
 }
 
-.product img{
+.product-footer img{
     width:20%
 }
 
-.product p{
+.product-footer p{
     margin-left:10px;
     display:inline-block;
     font-size:13px;
